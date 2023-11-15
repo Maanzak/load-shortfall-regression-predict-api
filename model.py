@@ -58,7 +58,7 @@ def _preprocess_data(data):
     # ---------------------------------------------------------------
 
     # ----------- Replace this code with your own preprocessing steps --------
-    predict_vector = df_new[['Madrid_wind_speed','Valencia_wind_deg','Bilbao_rain_1h']]
+    predict_vector = df_new[['Valencia_wind_speed','Bilbao_rain_1h', 'Seville_humidity', 'load_short_fall_3h']]
     # ------------------------------------------------------------------------
 
     return predict_vector
